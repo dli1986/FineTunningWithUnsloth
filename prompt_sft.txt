@@ -1,0 +1,19 @@
+You are helping to construct a high-quality instruction tuning dataset for fine-tuning a domain-specific language model.
+
+Each dictionary entry represents a technical function, command, or feature from a software reference manual. Your task is to generate multiple question-answer pairs from each entry, suitable for supervised fine-tuning (SFT).
+
+**Requirements:**
+
+1. For each entry, generate **3 to 5 diverse question-answer pairs**.
+2. Format each QA pair using the **Alpaca format**, with fields: `"instruction"`, `"input"`, `"output"`.
+3. The `"input"` field should include the relevant content from the entry (such as syntax, description, parameters, or examples) — treat this as the **context shown to the model** during inference.
+4. The `"instruction"` must be a **diverse, natural-sounding user question**, rewritten in different styles:
+   - Avoid repetitive forms like "What is..." or "Give an example..."
+   - Include "How would I...", "When should...", "Is it possible to...", "Why does..." types of questions.
+   - Vary between imperative, interrogative, and conditional phrasing (e.g., “Explain how…”, “Under what conditions…”).
+   - Simulate realistic questions that a developer might ask.
+5. Preserve the original **terminology, tone, and domain accuracy** — do not hallucinate or generalize beyond the given content.
+6. Ensure at least one QA pair is **example-based**, if an example is provided in the source.
+7. Output the QA pairs in **English** and in **JSONL format**.
+
+Here is the original dataset file. Please generate multiple high-quality QA pairs from it:
