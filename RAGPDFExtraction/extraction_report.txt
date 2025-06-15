@@ -1,0 +1,36 @@
+PDF Knowledge Extraction Report (Fixed Merging)
+==================================================
+
+Section Component Summary:
+-------------------------
+General: 16 segments (0 with syntax, 0 examples, 0 with options)
+Attribute-defining Items: 125 segments (1 with syntax, 28 examples, 1 with options)
+Definitions: 131 segments (8 with syntax, 17 examples, 0 with options)
+AQL: 114 segments (57 with syntax, 73 examples, 28 with options)
+Tape: 36 segments (27 with syntax, 13 examples, 19 with options)
+Background Process: 7 segments (5 with syntax, 1 examples, 1 with options)
+FlashBASIC: 405 segments (337 with syntax, 273 examples, 3 with options)
+Unix: 28 segments (15 with syntax, 13 examples, 4 with options)
+Index: 11 segments (9 with syntax, 7 examples, 0 with options)
+Spooler: 30 segments (23 with syntax, 20 examples, 14 with options)
+TCL: 538 segments (357 with syntax, 270 examples, 195 with options)
+FlashBASIC Debugger: 35 segments (18 with syntax, 17 examples, 0 with options)
+C Functions: 119 segments (112 with syntax, 106 examples, 0 with options)
+Editor: 37 segments (18 with syntax, 33 examples, 0 with options)
+System Files: 59 segments (1 with syntax, 7 examples, 0 with options)
+Output Processor: 91 segments (84 with syntax, 40 examples, 4 with options)
+Proc: 83 segments (37 with syntax, 31 examples, 0 with options)
+Processing Codes: 59 segments (28 with syntax, 30 examples, 2 with options)
+Runoff: 64 segments (51 with syntax, 21 examples, 5 with options)
+System Debugger: 40 segments (27 with syntax, 25 examples, 0 with options)
+Update Processor: 104 segments (85 with syntax, 13 examples, 1 with options)
+Customer Service: 6 segments (0 with syntax, 1 examples, 0 with options)
+
+Total merged segments: 2138
+Total pages processed: 1023
+
+Statistics:
+- Segments with syntax: 1300
+- Segments with examples: 1024
+- Segments with options: 277
+- Total examples: 1039
