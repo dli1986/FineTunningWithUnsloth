@@ -1,2 +1,3 @@
 # FineTunningWithUnsloth
-Get data from D3 reference manual and generate SFT data by using Claude4, fine-tunning with Unsloth work with RAG pipeline based on Google Colab
+Get data from D3 reference manual and generate SFT data by using Claude4, fine-tunning with Unsloth work with RAG pipeline based on Google Colab.
+RAG PDF file extraction depends on labels: {"id": "doc_0598", "title": " - GE", "content": "denotes a \"greater than or equal\" conditional between two elements.", "syntax": "Syntax\nexpression GE expression", "examples": ["Example\nif date ge \"6/1\" then print \"yes\""], "options": "", "metadata": {"level": 1, "page_number": 284, "segment_type": "content", "section_component": "FlashBASIC", "has_syntax": true, "has_examples": true, "has_options": false, "example_count": 1, "content_length": 67, "syntax_length": 31, "options_length": 0}}
